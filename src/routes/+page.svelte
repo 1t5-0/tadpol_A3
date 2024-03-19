@@ -2,6 +2,7 @@
      import '../style.css';
      let tadpol = '';
      let foamnest = [];
+     $: isDone = foamnest.filter(item => item.done);
 
      function addToArray() {
           if (tadpol == '') {
@@ -17,6 +18,10 @@
      function removeThis(index) {
           foamnest.splice(index, 1);
           foamnest = foamnest;
+     }
+     function clearDone(){
+          foamnest = foamnest.filter(item => !item.done)
+
      }
 </script>
 
@@ -36,7 +41,9 @@
           </li>
      {/each}
 </ul>
-
+{#if isDone.length > 0}
+<button on:click={clearDone}>Remove Done</button>
+{/if}
 <style>
      ul {
           list-style: none;
