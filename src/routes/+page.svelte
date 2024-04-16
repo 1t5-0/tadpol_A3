@@ -24,7 +24,7 @@
 
      }
 </script>
-
+<div class="lilipad">
 <h1>Hop To It!</h1>
 
 <form on:submit|preventDefault={addToArray}>
@@ -44,9 +44,11 @@
 {#if isDone.length > 0}
 <button on:click={clearDone}>Remove Done</button>
 {/if}
+</div>
 <style>
-     body {
-          color: #bcdbc1;
+     .lilipad {
+          background-color: #bcdbc1;
+          background-color: rgb(186, 222, 186);
      }
      ul {
           list-style: none;
