@@ -50,7 +50,7 @@
           list-style: none;
      }
      li {
-          font-size: 1.3rem;
+          font-size: 2rem;
      }
      .done {
           color: rgb(163, 109, 109);
