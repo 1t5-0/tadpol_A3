@@ -46,10 +46,6 @@
 {/if}
 </div>
 <style>
-     .lilipad {
-          background-color: #bcdbc1;
-          background-color: rgb(186, 222, 186);
-     }
      ul {
           list-style: none;
      }
