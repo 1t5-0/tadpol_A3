@@ -57,6 +57,6 @@
           text-decoration: line-through;
      }
      .remove {
-          color: rgb(117, 77, 77);
+          color: red;
      }
 </style>
