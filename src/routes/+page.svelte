@@ -2,6 +2,7 @@
      import '../style.css';
      let tadpol = '';
      let foamnest = [];
+     let isDone;
      $: isDone = foamnest.filter(item => item.done);
 
      function addToArray() {
