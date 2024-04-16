@@ -45,6 +45,9 @@
 <button on:click={clearDone}>Remove Done</button>
 {/if}
 <style>
+     body {
+          color: #bcdbc1;
+     }
      ul {
           list-style: none;
      }
