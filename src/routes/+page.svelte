@@ -53,7 +53,7 @@
           font-size: 1.3rem;
      }
      .done {
-          color: rgb(165, 165, 165);
+          color: rgb(163, 109, 109);
           text-decoration: line-through;
      }
      .remove {
